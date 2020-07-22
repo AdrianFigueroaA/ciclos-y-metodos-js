@@ -1,7 +1,7 @@
 
 //seleccion de ejercicio a realizar
 
-let opcion = prompt("Ingrese Numero de Ejercicio")
+let opcion = prompt("Ingrese Numero de Ejercicio, \n Ejercicio 1 Valida Numeros entre 1 y 100 \n Ejercicio 2 Valida el Color Ingresado por el Usuario \n Ejercicio 3 Calcular Promedio de Notas \n Ejercicio 4 pide Ingresar 3 Frutas \n Ejercicio 5 determina la cantidad de vocales y Consonantes");
 
 switch (opcion ) {
     case "1":
