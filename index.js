@@ -105,7 +105,7 @@ function ejercicio4(){
   
 
 
-/* ejercicio 5 Solicite al usuario escribir su nombre. Luego, debe determinar la cantidad de vocales y
+/* ejercicio 5 usuario escribe su nombre. Luego, debe determinar la cantidad de vocales y
 consonantes que tiene dicho nombre y mostrarlos por pantalla */
 
 
@@ -113,16 +113,11 @@ consonantes que tiene dicho nombre y mostrarlos por pantalla */
 function ejercicio5(){
 
     let nombre = prompt("Ingrese su Nombre");
-
     let vocales = nombre.split(" ");
-
     let numeroVocales = nombre.match(/[aeiou]/gi).length;
 
     let numeroconsonantes = nombre.match(/[^aeyiuo]/gi).length;
-  
-
-
-    
+      
     alert(numeroVocales + " vocales");
     alert(numeroconsonantes + " consonantes");
 
